@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | Explore Lesotho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="les.png" width="90" height="50" alt="Explore Lesotho logo">
+            <span>Explore Lesotho</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="page-banner">
+        <p class="eyebrow">LET'S PLAN YOUR JOURNEY</p>
+        <h1>Contact Us</h1>
+        <p>Have questions about visiting Lesotho? We'd love to hear from you.</p>
+    </section>
+
+    <section class="section contact-layout">
+        <div>
+            <p class="eyebrow">GET IN TOUCH</p>
+            <h2>Start Your Adventure</h2>
+            <p>Send us an enquiry about destinations, tourism experiences
+               or planning your trip.</p>
+
+            <div class="contact-info">
+                <h3>Location</h3>
+                <p>Lesotho, Southern Africa</p>
+
+                <h3>Email</h3>
+                <p>your-email@example.com</p>
+
+                <h3>Phone</h3>
+                <p>+266 XX XX XX XX</p>
+            </div>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Your name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Your email" required>
+
+            <label for="interest">Travel Interest</label>
+            <select id="interest" name="interest" required>
+                <option value="">Choose an experience</option>
+                <option>Guided Tours</option>
+                <option>Hiking Adventures</option>
+                <option>Cultural Experiences</option>
+                <option>Accommodation</option>
+                <option>Other Enquiry</option>
+            </select>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5"
+                      placeholder="Tell us about your plans..."
+                      required></textarea>
+
+            <button class="btn" type="submit">Send Enquiry</button>
+            <p class="note">Please connect this form to a form service or backend to receive messages.</p>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Explore Lesotho | Discover. Experience. Enjoy.</p>
+</footer>
+</body>
+</html>
